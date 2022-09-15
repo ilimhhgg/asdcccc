@@ -36,8 +36,8 @@ client.on('reconnect', () => {
 })
 
 
-// Publish
-client.publish('test5599', 'ws connection demo.aaaaaaa..!', { qos: 0, retain: false })
+
+
 
 
 client.on('connect', () => {
